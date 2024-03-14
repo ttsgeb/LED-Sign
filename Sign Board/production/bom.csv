@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"F1, F2, F3, F4, F5",1206,5,Polyfuse,
+F6,Fuseholder_Blade_Mini_Keystone_3568,1,Fuse,
+J1,TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal,1,Conn_01x03_Socket,
+"J2, J3, J4, J5, J6",LED Strip Castlation,5,Conn_01x03_Pin,
+"JP1, JP2, JP3, JP4, JP5",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,5,SolderJumper_2_Open,
