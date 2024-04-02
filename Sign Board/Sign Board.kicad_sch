@@ -410,139 +410,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers hide)
 			(pin_names
@@ -1130,16 +997,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 63.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee84664-675b-4fbb-bf85-618b7ad5b4ba")
-	)
-	(wire
-		(pts
 			(xy 88.9 111.76) (xy 93.98 111.76)
 		)
 		(stroke
@@ -1147,6 +1004,16 @@
 			(type default)
 		)
 		(uuid "9429c236-6e21-4c5f-b087-fe48646a98b2")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acda3faf-8bfa-4e40-831e-757bab03efb0")
 	)
 	(wire
 		(pts
@@ -1327,16 +1194,6 @@
 			(type default)
 		)
 		(uuid "fb4d5a3a-aba1-4530-9717-b43eb9649492")
-	)
-	(wire
-		(pts
-			(xy 63.5 58.42) (xy 63.5 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcb8c3a-d3c6-443f-b8bc-b995571798fd")
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
@@ -2249,16 +2106,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 45.72 55.88 180)
+		(at 45.72 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c61d84fa-c1a7-48e4-82d2-b56460485219")
 		(property "Reference" "J1"
-			(at 46.355 48.26 0)
+			(at 46.355 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2123,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 46.355 50.8 0)
+			(at 46.355 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,76 +2243,6 @@
 			(project "Sign Board"
 				(path "/4e28a67c-3cb0-46df-9cc0-96316a654950"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 63.5 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2c63b7c-923f-4715-8409-c3953ca4f7ff")
-		(property "Reference" "F6"
-			(at 66.04 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 66.04 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
-			(at 65.278 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 63.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a24671f-3f75-40f5-9d4a-078dd5ee5b16")
-		)
-		(pin "1"
-			(uuid "6f04812d-ab16-4605-a8a6-b6e9350108db")
-		)
-		(instances
-			(project "Sign Board"
-				(path "/4e28a67c-3cb0-46df-9cc0-96316a654950"
-					(reference "F6")
 					(unit 1)
 				)
 			)

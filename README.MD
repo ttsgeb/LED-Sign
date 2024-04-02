@@ -7,7 +7,9 @@ Parts list:
 ~~30m of 144/m WS2812 or compatible strip lights (~$400)~~  
 2 * https://www.mcmaster.com/89015K189/  ~$100  
 5/(2 Boards): https://www.digikey.com/en/products/detail/bourns-inc/MF-NSML400-12-2/9859205 ~$43 (60 total fuses)  
-1/(2 Boards): https://www.digikey.com/en/products/detail/littelfuse-inc/0297020-WXNV/146599 ~$5 (15 total fuses)  
-1/(2 Boards): https://www.digikey.com/en/products/detail/littelfuse-inc/01000064Z/15297149 ~$20 (12 Fuse Holders)  
 1/(2 Boards): https://www.digikey.com/en/products/detail/phoenix-contact/1017504/9346605 ~$12 (12 Connectors)  
-Boards: https://www.pcbway.com/orderonline.aspx?outsideid=44961165-732e-4da2-9f2f-c4112252519f ~$43 (25 Boards)  
+Boards: https://www.pcbway.com/orderonline.aspx?outsideid=be499f20-7bc3-4ea6-aa63-7e81ffeae63d ~$40 (25 Boards)
+
+
+Boards only total estimated cost: $100
+Boards and backer total estimated cost: $200
