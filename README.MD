@@ -11,7 +11,7 @@ Parts list:
 Boards: https://www.pcbway.com/orderonline.aspx?outsideid=be499f20-7bc3-4ea6-aa63-7e81ffeae63d ~$40 (25 Boards)
 
 
-Boards only total estimated cost: $100  
-Boards and backer total estimated cost: $200  
+Boards only total estimated cost: $100    Boards and backer total estimated cost: $200  
+
 
 ![Cheesy Render](./BoardRender.png)
